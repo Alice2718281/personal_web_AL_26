@@ -1,0 +1,9 @@
+.DS_Store
+
+# Original full-size photo sources are kept locally but not pushed.
+# The site uses optimized copies in assets/gallery/.
+assets/portrait/
+assets/nature/
+assets/pets/
+assets/monet-water-lilies.jpg
+*.HEIC

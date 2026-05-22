@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alice Lu | Data, AI, Product</title>
+    <meta
+      name="description"
+      content="Alice Lu's personal website for data, product, visual notes, and small creative projects."
+    />
+    <link rel="preload" href="assets/monet-water-lilies-hero.jpg" as="image" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Alice Lu home">Alice Lu</a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#vibe">Vibe Coding</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#vibe">Vibe Coding</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="home">
+      <section class="art-hero" aria-label="Alice Lu introduction">
+        <div class="art-hero__image" role="img" aria-label="Claude Monet water lilies painting"></div>
+        <div class="art-hero__shade"></div>
+
+        <div class="art-hero__content">
+          <p class="eyebrow light">Alice Lu</p>
+          <h1>Build thoughtfully,<br>
+            live curiously.</h1>
+          <p>
+            I work with data, product questions, and people — turning abstract ideas into clear insights.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary light-button" href="#work">See Work</a>
+            <a class="button glass-button" href="#vibe">Vibe Coding</a>
+            <a class="button glass-button" href="mailto:alice.luzheng103@gmail.com">Contact</a>
+          </div>
+        </div>
+
+        <p class="art-credit">
+          After Claude Monet, public-domain image via Wikimedia Commons.
+        </p>
+      </section>
+
+      <section id="about" class="section intro-section">
+        <div class="profile-frame">
+          <img src="assets/profile_picture.jpg" alt="Alice Lu" />
+        </div>
+        <div class="intro-body">
+          <p>
+            I’m Zheng Lu, also known as Alice. I’m a data scientist who enjoys turning data into strategy and solutions. I also love communicating and collaborating with people from different backgrounds.
+          </p>
+          <p>
+            To me, a good dashboard, model, or product decision should make things clearer and easier to navigate.
+          </p>
+          <p>
+            I’m also passionate about technology, especially AI, and enjoy using it to improve efficiency and standardize workflows.
+          </p>
+          <p>
+            Outside of work, I love road trips into nature, photography, and spending time with humans’ best fluffy friends.
+          </p>
+        </div>
+      </section>
+
+      <section class="section visual-section" aria-label="Visual notes">
+        <div class="section-heading">
+          <p class="eyebrow">Light, color, quiet moments.🖼️</p>
+          <h2>Visual Notes</h2>
+        </div>
+        <button class="visual-restart" type="button">Restart photos</button>
+
+        <div class="visual-grid">
+          <article class="visual-card portrait-card gallery-card">
+            <button class="photo-stack" type="button" aria-label="Browse Moments photo stack">
+              <img class="stack-photo" src="assets/gallery/portrait/IMG_7340.jpg" alt="Portrait moment 1" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/portrait/IMG_7624.jpg" alt="Portrait moment 2" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/portrait/IMG_7623.jpg" alt="Portrait moment 3" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/portrait/IMG_8985.jpg" alt="Portrait moment 4" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/portrait/IMG_9308.jpg" alt="Portrait moment 5" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/portrait/IMG_3014.jpg" alt="Portrait moment 6" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/portrait/IMG_7931.jpg" alt="Portrait moment 7" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/portrait/IMG_5827.jpg" alt="Portrait moment 8" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/portrait/DSCF5632.jpg" alt="Portrait moment 9" loading="lazy" />
+              <span class="stack-finished">That’s all for now. Subscribe for more moments 😂</span>
+            </button>
+            <p>Moments</p>
+          </article>
+
+          <article class="visual-card landscape-card gallery-card">
+            <button class="photo-stack" type="button" aria-label="Browse Light photo stack">
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5567.jpg" alt="Natural light moment 1" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5614.jpg" alt="Natural light moment 2" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5600.jpg" alt="Natural light moment 3" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5615.jpg" alt="Natural light moment 4" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5894.jpg" alt="Natural light moment 5" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF6023.jpg" alt="Natural light moment 6" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5846.jpg" alt="Natural light moment 7" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5886.jpg" alt="Natural light moment 8" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5691.jpg" alt="Natural light moment 9" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5907.jpg" alt="Natural light moment 10" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5802.jpg" alt="Natural light moment 11" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5594.jpg" alt="Natural light moment 12" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/nature/DSCF5769.jpg" alt="Natural light moment 13" loading="lazy" />
+              <span class="stack-finished">That’s all for now. Subscribe for more nature 😌</span>
+            </button>
+            <p>Light</p>
+          </article>
+
+          <article class="visual-card companion-card gallery-card">
+            <button class="photo-stack" type="button" aria-label="Browse Companions photo stack">
+              <img class="stack-photo" src="assets/gallery/pets/1.jpg" alt="Companion moment 1" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/2.jpg" alt="Companion moment 2" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/3.jpg" alt="Companion moment 3" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/4.jpg" alt="Companion moment 4" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/5.jpg" alt="Companion moment 5" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/6.jpg" alt="Companion moment 6" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/7.jpg" alt="Companion moment 7" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/8.jpg" alt="Companion moment 8" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/9.jpg" alt="Companion moment 9" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/10.jpg" alt="Companion moment 10" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/11.jpg" alt="Companion moment 11" loading="lazy" />
+              <img class="stack-photo" src="assets/gallery/pets/12.jpg" alt="Companion moment 12" loading="lazy" />
+              <span class="stack-finished">That’s all for now. Subscribe for more cuties 🧚‍♀️</span>
+            </button>
+            <p>Companions</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Learn and Grow 🧑‍💻</p>
+          <h2>Experiences</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="role-card">
+            <div class="role-meta">
+              <span>Feb 2025 - Present</span>
+              <span>New Jersey, NJ</span>
+            </div>
+            <h3>Data Scientist - Verisk Analytics</h3>
+            <p>
+              At an S&P 500 company, I work on a commercial underwriting data products for small businesses.
+            </p>
+            <ul>
+              <li>Made customer behavior easier to read from messy product logs.</li>
+              <li>Mapped user journeys so drop-offs felt visible instead of abstract.</li>
+              <li>Worked with engineering teams to improve error logging by analyzing large-scale usage data.</li>
+              <li>Improve business classification across industries.</li>
+            </ul>
+          </article>
+
+          <article class="role-card">
+            <div class="role-meta">
+              <span>Jun 2024 - Aug 2024</span>
+              <span>New Jersey, NJ</span>
+            </div>
+            <h3>Data Scientist Intern - Verisk Analytics</h3>
+            <p>
+              Improve text-to-NAICS mapping, a key business attribute delivered to customers.
+            </p>
+            <ul>
+              <li>Used semantic search to connect business descriptions with category codes (NAICS).</li>
+              <li>Improved classification coverage from 20% to 70% at 0.89 precision.</li>
+              <li>Tested GPT-4 classification patterns and reached 0.95 precision.</li>
+            </ul>
+          </article>
+
+          <article class="role-card compact">
+            <div class="role-meta">
+              <span>Jun 2022 - Sept 2022</span>
+              <span>New York, NY</span>
+            </div>
+            <h3>Financial Data Analyst Intern - Allied Millennial Partners</h3>
+            <p>
+              Built ETL workflows, financial dashboards, and time-series models
+              to support portfolio analysis and reporting.
+            </p>
+          </article>
+
+          <article class="role-card compact">
+            <div class="role-meta">
+              <span>Apr 2021 - Aug 2021</span>
+              <span>Beijing</span>
+            </div>
+            <h3>Data Analyst Intern - Huawei Technologies</h3>
+            <p>
+              Worked with marketing teams on customer segmentation,
+              search visibility analysis, and Tableau reporting.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills-section">
+        <div class="section-heading">
+          <p class="eyebrow">A few steady habits.</p>
+          <h2>How I Work</h2>
+        </div>
+
+        <div class="skill-grid">
+          <article>
+            <h3>Start with the question</h3>
+            <p>Find the real question and understand why it matters.</p>
+          </article>
+          <article>
+            <h3>Make behavior visible</h3>
+            <p>Use funnels, journeys, and dashboards to understand what actually happens.</p>
+          </article>
+          <article>
+            <h3>Respect the data</h3>
+            <p>I care about definitions, edge cases, and whether the result can be trusted.</p>
+          </article>
+          <article>
+            <h3>Leave things clear</h3>
+            <p>Write documentations that reduce confusion for the next person who touches it.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="vibe" class="section vibe-section">
+        <div class="section-heading">
+          <p class="eyebrow">Small things I made for fun ✨</p>
+          <h2>Vibe Coding</h2>
+        </div>
+
+        <div class="vibe-grid">
+          <article class="vibe-card">
+            <div class="vibe-preview puppy-preview">
+              <img src="assets/story.png" alt="Puppy scroll story preview" />
+            </div>
+            <div>
+              <h3>Playful Puppy Scroll Story</h3>
+              <p>
+                A little side page with a scroll-driven puppy animation. It is
+                soft, silly, and exactly the kind of small thing that makes a
+                website feel lived in.
+              </p>
+              <a href="puppy/index.html">Open Puppy Page</a>
+            </div>
+          </article>
+
+          <article class="vibe-card future-card">
+            <div class="vibe-preview future-preview">Coming Soon</div>
+            <div>
+              <h3>Another tiny experiment</h3>
+              <p>
+                I made another playful coding project and will add it here once
+                I find the link again.
+              </p>
+              <span class="quiet-link">Link space reserved</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Earlier builds 🔨</p>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="assets/nlp.png" alt="NLP project preview" />
+            <h3>Natural Language Processing</h3>
+            <p>Large text classification and model evaluation for unstructured documents.</p>
+            <a href="https://github.com/Alice2718281/EECS-219-AL/tree/main/Project%201">View GitHub</a>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/analysis.png" alt="Chicago crime analysis preview" />
+            <h3>Big Data Analysis</h3>
+            <p>Spark, PostgreSQL, and Flask workflow for large-scale data exploration.</p>
+            <a href="https://github.com/Alice2718281/manage_data_project">View GitHub</a>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/database.png" alt="Database design preview" />
+            <h3>Database Design</h3>
+            <p>ER diagrams and PostgreSQL schema design for a housing application database.</p>
+            <a href="https://github.com/Alice2718281/Database_Design_03">View GitHub</a>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/recommender.png" alt="Recommendation system project preview" />
+            <h3>Recommendation System</h3>
+            <p>Notebook-based recommendation modeling and evaluation for personalized results.</p>
+            <a href="https://github.com/Alice2718281/EECS-219-AL/blob/main/Project%203/Project%203.ipynb">View GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build with care.</h2>
+        </div>
+
+        <div class="contact-card">
+          <a href="mailto:alice.luzheng103@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/zhenglualice/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/Alice2718281" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="/assets/ZhengLu_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Alice Lu. Built by Codex.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

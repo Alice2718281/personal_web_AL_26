@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play With the Puppy</title>
+    <meta
+      name="description"
+      content="A playful scroll-driven puppy animation page."
+    />
+
+    <!-- Preload the ordered keyframe images so the first scroll feels instant. -->
+    <link rel="preload" href="1.png" as="image" />
+    <link rel="preload" href="2.png" as="image" />
+    <link rel="preload" href="3.png" as="image" />
+    <link rel="preload" href="4.png" as="image" />
+    <link rel="preload" href="5.png" as="image" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="home-link" href="../index.html" aria-label="Back to Home">
+      Back to Home
+    </a>
+
+    <main>
+      <!-- The animation stage stays fixed while the scroll track drives progress. -->
+      <section class="stage" aria-label="Scroll animation of a playful puppy">
+        <div class="studio-glow" aria-hidden="true"></div>
+
+        <div class="puppy-wrap" aria-hidden="true">
+          <img class="puppy-frame" src="1.png" alt="" />
+          <img class="puppy-frame" src="2.png" alt="" />
+          <img class="puppy-frame" src="3.png" alt="" />
+          <img class="puppy-frame" src="4.png" alt="" />
+          <img class="puppy-frame" src="5.png" alt="" />
+        </div>
+
+        <div class="story">
+          <p class="kicker">Scroll to play</p>
+          <h1 id="storyText">Hi, I am ready to play!</h1>
+        </div>
+
+        <div class="progress" aria-hidden="true">
+          <span id="progressBar"></span>
+        </div>
+      </section>
+
+      <!-- These panels create the scroll distance for each story beat. -->
+      <section class="scroll-track" aria-hidden="true">
+        <div class="beat"></div>
+        <div class="beat"></div>
+        <div class="beat"></div>
+        <div class="beat"></div>
+        <div class="beat"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
